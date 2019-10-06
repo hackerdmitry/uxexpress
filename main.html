@@ -12,87 +12,93 @@
 <body>
 
 <div id="rectangle">
-    <div class="groupIcon" style="top: 46px">
-        <img src="picturesSlide1/rocketVector.svg">
-        <img src="picturesSlide1/uxepressVector.svg">
-    </div>
-    <div id="line"></div>
-    <div id="textShortDescription">Курьерская служба доставки</div>
-    <img id="phoneVector" src="picturesSlide1/phoneVector.svg">
-    <div id="phoneNumber">8 (909) 023-12-51</div>
-    <div id="signButton">
-        <div id="signText">
-            <p>Вход</p>
+    <div id="topbar">
+        <div id="upGroupIcon" class="groupIcon">
+            <img src="picturesSlide1/rocketVector.svg">
+            <img src="picturesSlide1/uxepressVector.svg">
+        </div>
+        <div id="line"></div>
+        <div id="textShortDescription">Курьерская служба доставки</div>
+        <img id="phoneVector" src="picturesSlide1/phoneVector.svg">
+        <div id="phoneNumber">8 (909) 023-12-51</div>
+        <div id="signButton">
+            <p id="signText">Вход</p>
         </div>
     </div>
-    <div class="titleText">Срочная доставка день в день</div>
-    <div class="smallText">
-        <p>
-            Для тех, кто не может ждать у нас есть услуга срочной курьерской
-            доставки корреспондеции и других видов отправлений.
-        </p>
-    </div>
-    <div id="orderButton">
-        <div id="orderText">
-            <p>Заказать доставку</p>
+    <div id="firstPage">
+        <div class="imageRectRight">
+            <img src="picturesSlide1/car.png">
         </div>
-    </div>
-    <img class="imageRectRight" src="picturesSlide1/car.png">
-    <div style="position: absolute; top: 672px; left: 50%">
-        <div class="notClickedButton" style="right: 4px" onclick="clickPage(0)"></div>
-        <div class="notClickedButton" style="left: 4px" onclick="clickPage(1)"></div>
+        <div class="titleText">Срочная доставка день в день</div>
+        <div class="smallText">
+            <p>
+                Для тех, кто не может ждать у нас есть услуга срочной курьерской
+                доставки корреспондеции и других видов отправлений.
+            </p>
+        </div>
+        <div id="orderButton">
+            <div id="orderText">
+                <p>Заказать доставку</p>
+            </div>
+        </div>
+        <div id="cbutton1" class="notClickedButton" onclick="clickPage(0)"></div>
+        <div id="cbutton2" class="notClickedButton" onclick="clickPage(1)"></div>
     </div>
 
 </div>
 
-<div id="motivationText"><p>5 шагов к заявке</p></div>
-<div class="content" style="left: 9.35%; top: 994px">
-    <img src="picturesSlide1/ico1.png">
-    <p class="titleContent">Рассчитать стоимость</p>
-    <p class="descContent">Lorem ipsum dolor sit amet, consectetur adipisicing elitsequi nesciunt.</p>
+<div><p id="motivationText">5 шагов к заявке</p></div>
+<div id="firstLine">
+    <div class="content">
+        <img src="picturesSlide1/ico1.png">
+        <p class="titleContent">Рассчитать стоимость</p>
+        <p class="descContent">Lorem ipsum dolor sit amet, consectetur adipisicing elitsequi nesciunt.</p>
+    </div>
+    <div class="content">
+        <img src="picturesSlide1/ico2.png">
+        <p class="titleContent">Вызвать курьера</p>
+        <p class="descContent">Lorem ipsum dolor sit amet, consectetur adipisicing elitsequi nesciunt.</p>
+    </div>
+    <div class="content">
+        <img src="picturesSlide1/ico3.png">
+        <p class="titleContent">Оплатить услуги</p>
+        <p class="descContent">Lorem ipsum dolor sit amet, consectetur adipisicing elitsequi nesciunt.</p>
+    </div>
 </div>
-<div class="content" style="left: 37.153%; top: 994px">
-    <img src="picturesSlide1/ico2.png">
-    <p class="titleContent">Вызвать курьера</p>
-    <p class="descContent">Lorem ipsum dolor sit amet, consectetur adipisicing elitsequi nesciunt.</p>
-</div>
-<div class="content" style="right: 9.35%; top: 994px">
-    <img src="picturesSlide1/ico3.png">
-    <p class="titleContent">Оплатить услуги</p>
-    <p class="descContent">Lorem ipsum dolor sit amet, consectetur adipisicing elitsequi nesciunt.</p>
-</div>
-<div class="content" style="left: 23.264%; top: 1286px">
-    <img src="picturesSlide1/ico4.png">
-    <p class="titleContent">Заключить договор</p>
-    <p class="descContent">Lorem ipsum dolor sit amet, consectetur adipisicing elitsequi nesciunt.</p>
-</div>
-<div class="content" style="right: 23.264%; top: 1286px">
-    <img src="picturesSlide1/ico5.png">
-    <p class="titleContent">Предоставить данные</p>
-    <p class="descContent">Lorem ipsum dolor sit amet, consectetur adipisicing elitsequi nesciunt.</p>
+<div id="secondLine">
+    <div class="content">
+        <img src="picturesSlide1/ico4.png">
+        <p class="titleContent">Заключить договор</p>
+        <p class="descContent">Lorem ipsum dolor sit amet, consectetur adipisicing elitsequi nesciunt.</p>
+    </div>
+    <div class="content">
+        <img src="picturesSlide1/ico5.png">
+        <p class="titleContent">Предоставить данные</p>
+        <p class="descContent">Lorem ipsum dolor sit amet, consectetur adipisicing elitsequi nesciunt.</p>
+    </div>
 </div>
 
 </body>
 <footer>
-    <div class="groupIcon" style="top: 96px">
+    <div id="footerGroupIcon" class="groupIcon">
         <img src="picturesSlide1/rocketVector.svg">
         <img src="picturesSlide1/uxepressVector.svg">
     </div>
-    <div style="position: absolute; top: 89px; left: 37.153%">
-        <p class="footerP" style="position: absolute; top: 18px">О компании</p>
-        <p class="footerP" style="position: absolute; top: 54px">Вакансии</p>
-        <p class="footerP" style="position: absolute; top: 90px">Клиенту</p>
-        <p class="footerP" style="position: absolute; top: 126px">Франчайзинг</p>
+    <div id="footerGroup1">
+        <p class="footerP">О компании</p>
+        <p class="footerP">Вакансии</p>
+        <p class="footerP">Клиенту</p>
+        <p class="footerP">Франчайзинг</p>
     </div>
-    <div style="position: absolute; top: 89px; left: 51.042%">
-        <p class="footerP" style="position: absolute; top: 18px">Доставка из Китая</p>
-        <p class="footerP" style="position: absolute; top: 54px">Все услуги</p>
-        <p class="footerP" style="position: absolute; top: 90px">Акции</p>
+    <div id="footerGroup2">
+        <p class="footerP">Доставка из Китая</p>
+        <p class="footerP">Все услуги</p>
+        <p class="footerP">Акции</p>
     </div>
-    <div style="position: absolute; top: 98px; right: 9.35%; width: 170px">
-        <p class="footerInfo" style="position: absolute; top: 18px">manager@uexpress.ru</p>
-        <p class="footerInfo" style="position: absolute; top: 54px">115221, г. Челябинск, ул. Северная, д. 29-в</p>
-        <p class="footerInfo" style="position: absolute; top: 90px">Мы работаем по 24 часа 5 дней в неделю</p>
+    <div id="footerGroup3">
+        <p class="footerInfo">manager@uexpress.ru</p>
+        <p class="footerInfo">115221, г. Челябинск, ул. Северная, д. 29-в</p>
+        <p class="footerInfo">Мы работаем по 24 часа 5 дней в неделю</p>
     </div>
 </footer>
 </html>

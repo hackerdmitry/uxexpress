@@ -1,3 +1,7 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     margin: 0;
 }
@@ -7,122 +11,129 @@ ul {
 }
 
 #rectangle {
-    width: auto;
-    display: block;
-    position: relative;
+    width: 1920px;
     height: 718px;
+    display: block;
     background: radial-gradient(75.49% 75.49% at 61.01% 75.77%, #376A9A 0%, #2B5276 100%);
 }
 
+#topbar {
+
+}
+
+#upGroupIcon {
+    margin-top: 45px;
+}
+
 .groupIcon {
-    position: absolute;
-    left: 9.375%;
+    margin-left: 207px;
+    display: inline-block;
 }
 
 #line {
-    position: absolute;
+    width: 0;
     height: 14px;
-    left: 21.181%;
-    top: 46px;
+    margin-left: 67px;
+    margin-top: 46px;
     border: 1px solid #A9C5E0;
+    display: inline-block;
 }
 
 #textShortDescription {
-    position: absolute;
-    left: 23.264%;
-    top: 46px;
+    width: 400px;
+    margin-left: 40px;
+    margin-top: 43px;
     font-family: Proxima Nova, sans-serif;
     font-size: 13px;
     color: #A9C5E0;
+    display: inline-block;
 }
 
 #phoneVector {
-    position: absolute;
-    top: 46px;
-    left: 65%;
+    width: 19px;
+    margin-left: 400px;
+    margin-top: 46px;
+    display: inline-block;
 }
 
 #phoneNumber {
-    position: absolute;
+    width: 195px;
     font-family: Proxima Nova, sans-serif;
+    margin-left: 16px;
+    margin-top: 43px;
     font-size: 13px;
-    line-height: 24px;
-    left: 66.736%;
-    top: 43px;
-    display: flex;
     color: #A9C5E0;
+    display: inline-block;
 }
 
 #signButton {
-    position: absolute;
-    width: 11.806%;
-    top: 27px;
+    width: 227px;
     height: 52px;
-    left: 78.819%;
+    margin-left: 37px;
+    margin-top: 27px;
     border: 1px solid #E5E31F;
     box-sizing: border-box;
     border-radius: 10px;
+    display: inline-block;
 }
 
 #signText {
-    position: absolute;
+    margin: 15px 0;
     font-family: Proxima Nova, sans-serif;
     line-height: 22px;
     font-size: 18px;
-    bottom: -4px;
-    float: left;
-    font-weight: bold;
-    width: 100%;
     text-align: center;
     color: #E5E31F;
 }
 
+#firstPage {
+    display: inline-block;
+}
+
 .titleText {
-    position: absolute;
-    width: 45.833%;
+    width: 880px;
     height: 128px;
-    left: 9.35%;
-    top: 262px;
+    margin-left: 180px;
+    margin-top: 178px;
 
     font-family: Proxima Nova, sans-serif;
     font-size: 64px;
     line-height: 64px;
     font-weight: bold;
-    display: flex;
     align-items: center;
 
     color: #FFFFFF;
+    display: inline-block;
 }
 
 .smallText {
-    position: absolute;
-    width: 45.833%;
+    width: 880px;
     height: 48px;
-    left: 9.35%;
-    top: 408px;
+    margin-left: 180px;
+    margin-top: 18px;
 
     font-family: Proxima Nova, sans-serif;
     font-size: 16px;
     line-height: 24px;
-    display: flex;
-    align-items: center;
+    /*align-items: center;*/
 
     color: #FFFFFF;
+    display: inline-block;
 }
 
 #orderButton {
-    position: absolute;
-    width: 16.667%;
+    width: 320px;
     height: 52px;
-    left: 9.35%;
-    top: 543px;
+    margin-left: 180px;
+    margin-top: 87px;
+    margin-right: 560px;
 
     background: #E5E31F;
     border-radius: 10px;
+    display: inline-block;
 }
 
 #orderText {
-    position: absolute;
     width: 100%;
 
     font-family: Proxima Nova, sans-serif;
@@ -134,37 +145,55 @@ ul {
     text-align: center;
 
     color: #2A4F71;
+    display: inline-block;
+}
+
+.imageRectRight {
+    width: auto;
+    height: 612px;
+    margin-top: 22px;
+    margin-right: 180px;
+    float: right;
+    display: inline-block;
+}
+
+#clickedButtons {
+    margin-top: 77px;
+    margin-left: 960px;
+    display: inline-block;
+}
+
+#cbutton1 {
+    width: 14px;
+    height: 14px;
+    margin-top: 77px;
+    margin-left: 936px;
+    display: inline-block;
+}
+
+#cbutton2 {
+    width: 14px;
+    height: 14px;
+    margin-left: 8px;
+    display: inline-block;
 }
 
 .clickedButton {
-    position: absolute;
     background: #346491;
     border-radius: 3px;
 }
 
 .notClickedButton {
-    position: absolute;
     cursor: pointer;
-    width: 14px;
-    height: 14px;
     background: #264160;
     border-radius: 4px;
 }
 
-.imageRectRight {
-    position: absolute;
-    width: auto;
-    height: 612px;
-    left: 67%;
-    top: 106px;
-}
-
 #motivationText {
-    position: absolute;
-    width: 81.25%;
+    width: 1560px;
     height: 34px;
-    left: 9.35%;
-    top: 814px;
+    margin-left: 180px;
+    margin-top: 96px;
 
     font-family: Proxima Nova, sans-serif;
     font-size: 28px;
@@ -175,12 +204,26 @@ ul {
     text-align: center;
 
     color: #2A496B;
+    display: inline-block;
+}
+
+#firstLine {
+    margin-left: 150px;
+    margin-top: 143px;
+    display: inline-block;
+}
+
+#secondLine {
+    margin-left: 420px;
+    margin-top: 114px;
+    display: inline-block;
 }
 
 .content {
-    position: absolute;
-    width: 25.7%;
+    width: 493px;
     height: 38px;
+    margin-left: 40px;
+    display: inline-block;
 }
 
 .content img {
@@ -205,6 +248,44 @@ ul {
     color: #000000;
 }
 
+#footerGroupIcon {
+    margin-top: 44px;
+    margin-bottom: 208px;
+}
+
+#footerGroup1 {
+    width: 227px;
+    height: 170px;
+
+    margin-top: 89px;
+    margin-left: 373px;
+    margin-bottom: 87px;
+
+    display: inline-block;
+}
+
+#footerGroup2 {
+    width: 227px;
+    height: 108px;
+
+    margin-top: 89px;
+    margin-left: 40px;
+    margin-bottom: 123px;
+
+    display: inline-block;
+}
+
+#footerGroup3 {
+    width: 227px;
+    height: 133px;
+
+    margin-top: 98px;
+    margin-left: 307px;
+    margin-bottom: 89px;
+
+    display: inline-block;
+}
+
 .footerP {
     font-family: Proxima Nova, sans-serif;
     font-size: 15px;
@@ -222,9 +303,9 @@ ul {
 }
 
 footer {
-    position: absolute;
     width: 100%;
     height: 320px;
-    top: 1606px;
+    padding-top: 51px;
+    margin-top: 140px;
     background: #23415E;
 }
