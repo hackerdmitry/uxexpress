@@ -8,7 +8,7 @@ let smallTexts = ['Для тех, кто не может ждать у нас е
                   'В течение часа наш курьер заберет вашу посылку и подпишет с Вами договор о предоставлении услуг.'];
 let imageSrcs = ['picturesSlide1/car.png', 'picturesSlide1/contract.png'];
 let imageMarginTops = ['22px', '59px'];
-let imageMarginRights = ['180px', '1px'];
+let imageMarginLefts = ['1230px', '1315px'];
 
 window.onload = function () {
     notClickedDiv = $('.notClickedButton');
@@ -26,8 +26,8 @@ function clickPage(index) {
 
         let $imageRectRight = $('.imageRectRight');
         $($imageRectRight.children()[0]).attr('src', imageSrcs[curIndexPage]);
-        $imageRectRight.css('margin-top', imageMarginTops[curIndexPage])
-        $imageRectRight.css('margin-right', imageMarginRights[curIndexPage])
+        $imageRectRight.css('margin-top', imageMarginTops[curIndexPage]);
+        $imageRectRight.css('margin-left', imageMarginLefts[curIndexPage]);
     }
 }
 

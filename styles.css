@@ -4,6 +4,8 @@
 
 body {
     margin: 0;
+    width: 1920px;
+    overflow-x: hidden;
 }
 
 ul {
@@ -121,6 +123,11 @@ ul {
     display: inline-block;
 }
 
+#stayDivs {
+    margin-top: 440px;
+    position: absolute;
+}
+
 #orderButton {
     width: 320px;
     height: 52px;
@@ -152,9 +159,9 @@ ul {
     width: auto;
     height: 612px;
     margin-top: 22px;
-    margin-right: 180px;
+    margin-left: 1230px;
     float: right;
-    display: inline-block;
+    position: absolute;
 }
 
 #clickedButtons {
