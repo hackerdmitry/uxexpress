@@ -11,96 +11,167 @@
 </header>
 <body>
 
-<div id="stayDivs">
-    <div id="orderButton">
-        <div id="orderText">
-            <p>Заказать доставку</p>
+<div id="sign-in">
+    <div id="blackout-background">
+        <div id="window-authorization">
+            <div id="margins-sides-sign-in">
+                <div id="sign-in-text-group">
+                    <div id="sing-in-title">Авторизация</div>
+                    <div id="sing-in-summary">Введите логин и пароль, чтобы войти в личный кабинет</div>
+                </div>
+                <label for="area-login">
+                    <input id="area-login" placeholder="Логин" type="email">
+                    <input id="area-password" placeholder="Пароль" type="password">
+                </label>
+                <div id="sign-in-rect-button">
+                    <div id="sign-in-text-button">Войти</div>
+                </div>
+            </div>
         </div>
     </div>
-    <div id="cbutton1" class="notClickedButton" onclick="clickPage(0)"></div>
-    <div id="cbutton2" class="notClickedButton" onclick="clickPage(1)"></div>
 </div>
 
 <div id="rectangle">
-    <div id="topbar">
-        <div id="upGroupIcon" class="groupIcon">
-            <img src="picturesSlide1/rocketVector.svg">
-            <img src="picturesSlide1/uxepressVector.svg">
+    <div class="margins-sides">
+        <div id="header-line">
+            <div class="group-uxepress">
+                <img src="picturesSlide1/rocketVector.svg" alt="Здесь должна быть ракета">
+                <img src="picturesSlide1/uxepressVector.svg" alt="Здесь должен быть логотип">
+            </div>
+            <div id="stick"></div>
+            <div class="text">Курьерская служба доставки</div>
+            <div id="group-phone">
+                <img src="picturesSlide1/phoneVector.svg" alt="Здесь должна быть иконка телефона">
+                <div class="text">8 (909) 023-12-51</div>
+            </div>
+            <div id="button-sign-in">
+                <div id="rectangle-button">
+                    <div id="text-button">Вход</div>
+                </div>
+            </div>
         </div>
-        <div id="line"></div>
-        <div id="textShortDescription">Курьерская служба доставки</div>
-        <img id="phoneVector" src="picturesSlide1/phoneVector.svg">
-        <div id="phoneNumber">8 (909) 023-12-51</div>
-        <div id="signButton">
-            <p id="signText">Вход</p>
+        <div id="headers-body">
+            <div class="header-body">
+                <div class="column-body">
+                    <div class="header-text">
+                        <div class="text-title-text">Срочная доставка день в день</div>
+                        <div class="text-summary-text">Для тех, кто не может ждать у нас есть услуга срочной курьерской
+                            доставки
+                            корреспондеции и других видов отправлений.
+                        </div>
+                    </div>
+                    <div class="group-button-order">
+                        <div class="text-button-order">Заказать доставку</div>
+                    </div>
+                </div>
+                <div class="column-body">
+                    <img class="header-image" src="picturesSlide1/car.png" alt="Здесь должна быть машина">
+                </div>
+            </div>
+            <div class="header-body">
+                <div class="column-body">
+                    <div class="header-text">
+                        <div class="text-title-text">Подписание договора за 1 час</div>
+                        <div class="text-summary-text">В течение часа наш курьер заберет вашу посылку и подпишет с Вами
+                            договор о предоставлении услуг.
+                        </div>
+                    </div>
+                    <div class="group-button-order">
+                        <div class="text-button-order">Заказать доставку</div>
+                    </div>
+                </div>
+                <div class="column-body">
+                    <img class="header-image" src="picturesSlide1/contract.png" alt="Здесь должна быть машина">
+                </div>
+            </div>
         </div>
-    </div>
-    <div id="firstPage">
-        <div class="imageRectRight">
-            <img src="picturesSlide1/car.png">
-        </div>
-        <div class="titleText">Срочная доставка день в день</div>
-        <div class="smallText">
-            <p>
-                Для тех, кто не может ждать у нас есть услуга срочной курьерской
-                доставки корреспондеции и других видов отправлений.
-            </p>
+        <div id="scroll-buttons">
+            <div class="check-button" onclick="clickPage(0)">
+                <div id="checkmate"></div>
+            </div>
         </div>
     </div>
 </div>
-
-<div><p id="motivationText">5 шагов к заявке</p></div>
-<div id="firstLine">
-    <div class="content">
-        <img src="picturesSlide1/ico1.png">
-        <p class="titleContent">Рассчитать стоимость</p>
-        <p class="descContent">Lorem ipsum dolor sit amet, consectetur adipisicing elitsequi nesciunt.</p>
-    </div>
-    <div class="content">
-        <img src="picturesSlide1/ico2.png">
-        <p class="titleContent">Вызвать курьера</p>
-        <p class="descContent">Lorem ipsum dolor sit amet, consectetur adipisicing elitsequi nesciunt.</p>
-    </div>
-    <div class="content">
-        <img src="picturesSlide1/ico3.png">
-        <p class="titleContent">Оплатить услуги</p>
-        <p class="descContent">Lorem ipsum dolor sit amet, consectetur adipisicing elitsequi nesciunt.</p>
+<div id="body-content">
+    <div class="margins-sides">
+        <div id="title-text">5 шагов к заявке</div>
+        <div id="content">
+            <div class="line-content">
+                <div class="content-icos">
+                    <img src="picturesSlide1/ico1.png" alt="ico1">
+                    <div class="content-title-text">Расчетать стоимость</div>
+                    <div class="content-summary-text">Lorem ipsum dolor sit amet, consectetur adipisicing elitsequi
+                        nesciunt.
+                    </div>
+                </div>
+                <div class="content-icos">
+                    <img src="picturesSlide1/ico2.png" alt="ico2">
+                    <div class="content-title-text">Вызвать курьера</div>
+                    <div class="content-summary-text">Lorem ipsum dolor sit amet, consectetur adipisicing elitsequi
+                        nesciunt.
+                    </div>
+                </div>
+                <div class="content-icos">
+                    <img src="picturesSlide1/ico3.png" alt="ico3">
+                    <div class="content-title-text">Оплатить услуги</div>
+                    <div class="content-summary-text">Lorem ipsum dolor sit amet, consectetur adipisicing elitsequi
+                        nesciunt.
+                    </div>
+                </div>
+            </div>
+            <div class="line-content">
+                <div class="content-icos">
+                    <img src="picturesSlide1/ico4.png" alt="ico4">
+                    <div class="content-title-text">Заключить договор</div>
+                    <div class="content-summary-text">Lorem ipsum dolor sit amet, consectetur adipisicing elitsequi
+                        nesciunt.
+                    </div>
+                </div>
+                <div class="content-icos">
+                    <img src="picturesSlide1/ico5.png" alt="ico5">
+                    <div class="content-title-text">Предоставить данные</div>
+                    <div class="content-summary-text">Lorem ipsum dolor sit amet, consectetur adipisicing elitsequi
+                        nesciunt.
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
-<div id="secondLine">
-    <div class="content">
-        <img src="picturesSlide1/ico4.png">
-        <p class="titleContent">Заключить договор</p>
-        <p class="descContent">Lorem ipsum dolor sit amet, consectetur adipisicing elitsequi nesciunt.</p>
-    </div>
-    <div class="content">
-        <img src="picturesSlide1/ico5.png">
-        <p class="titleContent">Предоставить данные</p>
-        <p class="descContent">Lorem ipsum dolor sit amet, consectetur adipisicing elitsequi nesciunt.</p>
+<div id="rect-footer">
+    <div class="margins-sides">
+        <div id="footer">
+            <div class="group-uxepress">
+                <img src="picturesSlide1/rocketVector.svg" alt="Здесь должна быть ракета">
+                <img src="picturesSlide1/uxepressVector.svg" alt="Здесь должен быть логотип">
+            </div>
+            <div id="info-site">
+                <div id="hyperlinks">
+                    <div class="column-hyperlinks">
+                        <div class="link-text">О компании</div>
+                        <div class="link-text">Вакансии</div>
+                        <div class="link-text">Клиенту</div>
+                        <div class="link-text">Франчайзинг</div>
+                    </div>
+                    <div class="column-hyperlinks">
+                        <div class="link-text">Доставка из Китая</div>
+                        <div class="link-text">Все услуги</div>
+                        <div class="link-text">Акции</div>
+                    </div>
+                </div>
+                <div id="info-text">
+                    manager@uexpress.ru
+                    <br>
+                    <br>
+                    115221, г. Челябинск, ул. Северная, д. 29-в
+                    <br>
+                    <br>
+                    Мы работаем по 24 часа 5 дней в неделю
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
 </body>
-<footer>
-    <div id="footerGroupIcon" class="groupIcon">
-        <img src="picturesSlide1/rocketVector.svg">
-        <img src="picturesSlide1/uxepressVector.svg">
-    </div>
-    <div id="footerGroup1">
-        <p class="footerP">О компании</p>
-        <p class="footerP">Вакансии</p>
-        <p class="footerP">Клиенту</p>
-        <p class="footerP">Франчайзинг</p>
-    </div>
-    <div id="footerGroup2">
-        <p class="footerP">Доставка из Китая</p>
-        <p class="footerP">Все услуги</p>
-        <p class="footerP">Акции</p>
-    </div>
-    <div id="footerGroup3">
-        <p class="footerInfo">manager@uexpress.ru</p>
-        <p class="footerInfo">115221, г. Челябинск, ул. Северная, д. 29-в</p>
-        <p class="footerInfo">Мы работаем по 24 часа 5 дней в неделю</p>
-    </div>
-</footer>
 </html>
